@@ -17,7 +17,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.6;
     letter-spacing: 0.1rem;
-    background-color: #DFFFDE;
+    background-color: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -34,7 +34,6 @@ h2 {
 }
 
 .block {
-    font-size: 150%;
     background-color: #B1EFFC;
     width: 30%;
     float: left;
@@ -43,6 +42,11 @@ h2 {
     margin: 1%;
     border-radius: 5px;
     margin-right: 0;
+    font-size:150%;
+}
+
+.block,  x:-moz-any-link, x:default  {
+    	font-size:100%;
 }
 
 .boxes {
@@ -54,7 +58,8 @@ h3 {
     font-size: 100%;
     clear: left;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0 0 0;
+    margin: 0;
 }
 
 #block2 {
@@ -74,7 +79,7 @@ h3 {
     text-align: center;
     padding: 5px 0px 10px;
     color: #FFFFFF;
-    background-color: #00FF6D;
+    background-color: #FF5600;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -91,14 +96,14 @@ h3 {
 }
 
  @media (max-width: 768px) { /* スマホ用 */
+ .main-picture {
+     height: 250px;
+ }
+ 
 .block {
     width: 90%;
     flex-direction: column;
     margin: 5%;
     margin-bottom: 40px;
-}
-
-.box {
-    height: 250px;
 }
 }
